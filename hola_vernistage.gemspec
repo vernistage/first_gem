@@ -6,8 +6,9 @@ Gem::Specification.new do |s|
   s.description =  "A simple hello world gem"
   s.authors     = ["Nick Quaranto, Sarah"]
   s.email       = 'nick@quaran.to'
-  s.files       = ["lib/hola_vernistage.rb"]
+  s.files       = ["lib/hola_vernistage.rb", "lib/hola/translator.rb"]
   s.homepage    =
     'http://rubygems.org/gems/hola'
   s.license     = 'MIT'
+  s.platform = Gem::Platform.local
 end
